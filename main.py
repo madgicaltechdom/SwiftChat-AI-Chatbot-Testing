@@ -17,7 +17,7 @@ if len(files) == 1:
     df = pd.read_csv(file_name)
     
 # Defining reference data and response data from csv
-reference = df["Answer"]
+reference = df["Expected Answer"]
 response = df["Chatbot Response"]
 metric_type = ["Bert_metric"]
 

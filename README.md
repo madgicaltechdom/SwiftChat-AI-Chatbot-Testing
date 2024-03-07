@@ -2,6 +2,10 @@
 
 We Have different SwiChat AI Chatbots that is designed to asnwer user questions. We have question bank that consist three main columns, "Question", "Expected Answer" and "Chatbot Response". We aim to determine the semantic similarity of "Chatbot Response" with "Expected Answer."
 
+Before moving ahead, create your dataset that contains the Questions bank. Here is a sample sheet with script that you can use for generating answers and as dataset.
+
+Sheet: [Link]()
+
 To conduct this evaluation, we employ two embedding models: Bert and Glove. From each of these models, we calculate two types of matrices:<br/>
 
 - **Recall**: This measures the number of references found in the response divided by the size of the reference list.
