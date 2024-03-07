@@ -30,7 +30,7 @@ bge_large_model = SentenceTransformer('BAAI/bge-large-en-v1.5')
 
 # Load pre-trained GloVe word embeddings
 embeddings_index = {}
-with open('/home/naveen/Desktop/Automation Test/glove_data/archive1/glove.6B.100d.txt', encoding='utf-8') as f:
+with open('../glove_data/archive1/glove.6B.100d.txt', encoding='utf-8') as f:
     for line in f:
         values = line.split()
         word = values[0]
