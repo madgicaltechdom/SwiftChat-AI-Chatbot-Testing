@@ -1,3 +1,11 @@
+**Hook:** SwiftChat AI chatbot requires comprehensive testing for accuracy.
+
+**Body:** Testing framework for SwiftChat AI chatbot responses.
+
+**Closer:** Accurate chatbot responses through comprehensive testing.
+
+---
+
 # Evaluating and Scoring the AI chatbot answer similarity.
 
 We Have different SwiChat AI Chatbots that is designed to asnwer user questions. We have question bank that consist three main columns, "Question", "Expected Answer" and "Chatbot Response". We aim to determine the semantic similarity of "Chatbot Response" with "Expected Answer."
